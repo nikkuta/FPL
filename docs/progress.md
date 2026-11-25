@@ -1,14 +1,15 @@
 # 项目进度与决策记录（Progress & Decisions）
 
-> **当前阶段**：Phase 0 — 总体设计与边界对齐
-> **当前任务**：Phase 0.1 已确认；准备进入 Phase 0.2（核心用户流程与状态机）
+> **当前阶段**：Phase 0 — 前置调研与总体设计
+> **当前任务**：Phase 0.0 与 0.1 已完成并推送；待用户消化后进入 Phase 0.2（核心用户流程与状态机）
 
 ---
 
 ## 1. Phase 0 → Phase 1 路线图进度
 
 - [x] **仓库初始化与协作规范**：`AGENTS.md`（根目录）与 `docs/prompts.md` 已入库
-- [x] **Phase 0.1 一页产品定义**：`docs/01-product-one-pager.md` 已确认
+- [x] **Phase 0.0 领域规则与竞品深度调研**：`docs/00-fpl-domain-research.md` 与 `docs/00-competitor-research.md` 已确认
+- [x] **Phase 0.1 一页产品定义（v0.3 真 Agent 版）**：`docs/01-product-one-pager.md` 已确认
 - [ ] **Phase 0.2 核心用户流程与状态机**：未开始
 - [ ] **Phase 0.3 系统架构、确定性/Agent 边界与关键数据对象**：未开始
 - [ ] **Phase 1.1 最小垂直闭环**：未开始
