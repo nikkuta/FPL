@@ -1,0 +1,18 @@
+{
+  "current": [
+    {"event": 1, "event_transfers": 0},
+    {"event": 2, "event_transfers": 1},
+    {"event": 3, "event_transfers": 0},
+    {"event": 4, "event_transfers": 1},
+    {"event": 5, "event_transfers": 0},
+    {"event": 6, "event_transfers": 1},
+    {"event": 7, "event_transfers": 0},
+    {"event": 8, "event_transfers": 2},
+    {"event": 9, "event_transfers": 1},
+    {"event": 10, "event_transfers": 0},
+    {"event": 11, "event_transfers": 2}
+  ],
+  "chips": [
+    {"name": "bboost", "event": 6}
+  ]
+}

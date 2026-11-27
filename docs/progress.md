@@ -1,7 +1,7 @@
 # 项目进度与决策记录（Progress & Decisions）
 
-> **当前阶段**：Phase 0 已全部收口 → 即将进入 **Phase 1.1（第一条最小垂直闭环）**
-> **当前任务**：Phase 0.3 已确认并推送；新会话中先做 Phase 1.1 的小步任务拆解，再逐步编码实现
+> **当前阶段**：**Phase 1.1（第一条最小垂直闭环）** 进行中  
+> **当前任务**：Task 1 已完成并验证（19/19 单测通过）→ 即将进入 Task 2（5 个确定性工具与硬规则校验器）
 
 ---
 
@@ -12,7 +12,13 @@
 - [x] **Phase 0.1 一页产品定义（v0.3 真 Agent 版）**：`docs/01-product-one-pager.md` 已确认
 - [x] **Phase 0.2 核心用户流程与状态机**：`docs/02-user-flow-and-state-machine.md` 已确认
 - [x] **Phase 0.3 系统架构、确定性/Agent 边界与关键数据对象**：`docs/03-architecture-and-data-model.md` 与 `docs/03-architecture-explained.md` 已确认
-- [ ] **Phase 1.1 最小垂直闭环**：未开始（下一步先做 `/拆解`）
+- [ ] **Phase 1.1 最小垂直闭环**：进行中
+  - [x] **Task 1：核心数据契约与 FPL 快照适配器**（`docs/specs/01-snapshot-and-ft-prd.md`、`backend/models.py`、`backend/fpl_client.py`、`tests/test_fpl_client.py`）
+  - [ ] **Task 2：5 个确定性工具与硬规则校验器**
+  - [ ] **Task 3：原生 Agent 编排循环与确定性护栏**
+  - [ ] **Task 4：SQLite 持久化与赛后复盘计分**
+  - [ ] **Task 5：FastAPI 接口层与 SSE 流式编排**
+  - [ ] **Task 6：轻量单页工作台前端与端到端联调**
 - [ ] **Phase 1.2 第一阶段验收用例与离线评测基线**：未开始
 
 ---
