@@ -1,7 +1,7 @@
 # 项目进度与决策记录（Progress & Decisions）
 
 > **当前阶段**：**Phase 1.1（第一条最小垂直闭环）** 进行中  
-> **当前任务**：Task 1 已完成并验证（19/19 单测通过）→ 即将进入 Task 2（5 个确定性工具与硬规则校验器）
+> **当前任务**：Task 2 已完成并验证（31/31 单测通过）→ 即将进入 Task 3（原生 Agent 编排循环与确定性护栏）
 
 ---
 
@@ -14,7 +14,7 @@
 - [x] **Phase 0.3 系统架构、确定性/Agent 边界与关键数据对象**：`docs/03-architecture-and-data-model.md` 与 `docs/03-architecture-explained.md` 已确认
 - [ ] **Phase 1.1 最小垂直闭环**：进行中
   - [x] **Task 1：核心数据契约与 FPL 快照适配器**（`docs/specs/01-snapshot-and-ft-prd.md`、`backend/models.py`、`backend/fpl_client.py`、`tests/test_fpl_client.py`）
-  - [ ] **Task 2：5 个确定性工具与硬规则校验器**
+  - [x] **Task 2：5 个确定性工具与硬规则校验器**（`docs/specs/02-deterministic-tools-prd.md`、`backend/tools.py`、`tests/test_tools.py`）
   - [ ] **Task 3：原生 Agent 编排循环与确定性护栏**
   - [ ] **Task 4：SQLite 持久化与赛后复盘计分**
   - [ ] **Task 5：FastAPI 接口层与 SSE 流式编排**
